@@ -1,6 +1,6 @@
 # C/C++ code snippets for Visual Studio Code
 
-[![License](https://img.shields.io/github/license/idma88/c-cpp-snippets?style=for-the-badge)](https://github.com/idma88/c-cpp-snippets/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/idma88/c-cpp-snippets?style=for-the-badge)](https://github.com/idma88/c-cpp-snippets/blob/master/LICENSE)
 [![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/idma88.c-cpp--snippets?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.c-cpp--snippets)
 [![VS Code Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/idma88.c-cpp--snippets?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.c-cpp--snippets)
 [![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/idma88.c-cpp--snippets?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.c-cpp--snippets)
@@ -190,6 +190,10 @@ Prefix | Description
 ## Extension Settings
 
 This extension has no settings.
+
+### 1.0.1
+
+- Update README
 
 ### 1.0.0
 
