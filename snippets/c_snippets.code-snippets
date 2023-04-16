@@ -2,217 +2,217 @@
   "include assert.h": {
     "prefix": "#assert",
     "body": [
-      "#include <assert.h>"
+      "#include <assert.h>\n"
     ],
     "description": "Code snippet for #include <assert.h>"
   },
   "include complex.h": {
     "prefix": "#complex",
     "body": [
-      "#include <complex.h>"
+      "#include <complex.h>\n"
     ],
     "description": "Code snippet for #include <complex.h> (C99)"
   },
   "include ctype.h": {
     "prefix": "#ctype",
     "body": [
-      "#include <ctype.h>"
+      "#include <ctype.h>\n"
     ],
     "description": "Code snippet for #include <ctype.h>"
   },
   "include errno.h": {
     "prefix": "#errno",
     "body": [
-      "#include <errno.h>"
+      "#include <errno.h>\n"
     ],
     "description": "Code snippet for #include <errno.h>"
   },
   "include fenv.h": {
     "prefix": "#fenv",
     "body": [
-      "#include <fenv.h>"
+      "#include <fenv.h>\n"
     ],
     "description": "Code snippet for #include <fenv.h> (C99)"
   },
   "include float.h": {
     "prefix": "#float",
     "body": [
-      "#include <float.h>"
+      "#include <float.h>\n"
     ],
     "description": "Code snippet for #include <float.h>"
   },
   "include inttypes.h": {
     "prefix": "#inttypes",
     "body": [
-      "#include <inttypes.h>"
+      "#include <inttypes.h>\n"
     ],
     "description": "Code snippet for #include <inttypes.h> (C99)"
   },
   "include iso646.h": {
     "prefix": "#iso646",
     "body": [
-      "#include <iso646.h>"
+      "#include <iso646.h>\n"
     ],
     "description": "Code snippet for #include <iso646.h> (C95)"
   },
   "include limits.h": {
     "prefix": "#limits",
     "body": [
-      "#include <limits.h>"
+      "#include <limits.h>\n"
     ],
     "description": "Code snippet for #include <limits.h>"
   },
   "include locale.h": {
     "prefix": "#locale",
     "body": [
-      "#include <locale.h>"
+      "#include <locale.h>\n"
     ],
     "description": "Code snippet for #include <locale.h>"
   },
   "include math.h": {
     "prefix": "#math",
     "body": [
-      "#include <math.h>"
+      "#include <math.h>\n"
     ],
     "description": "Code snippet for #include <math.h>"
   },
   "include setjmp.h": {
     "prefix": "#setjmp",
     "body": [
-      "#include <setjmp.h>"
+      "#include <setjmp.h>\n"
     ],
     "description": "Code snippet for #include <setjmp.h>"
   },
   "include signal.h": {
     "prefix": "#signal",
     "body": [
-      "#include <signal.h>"
+      "#include <signal.h>\n"
     ],
     "description": "Code snippet for #include <signal.h>"
   },
   "include stdalign.h": {
     "prefix": "#stdalign",
     "body": [
-      "#include <stdalign.h>"
+      "#include <stdalign.h>\n"
     ],
     "description": "Code snippet for #include <stdalign.h> (C11)"
   },
   "include stdarg.h": {
     "prefix": "#stdarg",
     "body": [
-      "#include <stdarg.h>"
+      "#include <stdarg.h>\n"
     ],
     "description": "Code snippet for #include <stdarg.h>"
   },
   "include stdatomic.h": {
     "prefix": "#stdatomic",
     "body": [
-      "#include <stdatomic.h>"
+      "#include <stdatomic.h>\n"
     ],
     "description": "Code snippet for #include <stdatomic.h> (C11)"
   },
   "include stdbit.h": {
     "prefix": "#stdbit",
     "body": [
-      "#include <stdbit.h>"
+      "#include <stdbit.h>\n"
     ],
     "description": "Code snippet for #include <stdbit.h> (C23)"
   },
   "include stdbool.h": {
     "prefix": "#stdbool",
     "body": [
-      "#include <stdbool.h>"
+      "#include <stdbool.h>\n"
     ],
     "description": "Code snippet for #include <stdbool.h> (C99)"
   },
   "include stdckdint.h": {
     "prefix": "#stdckdint",
     "body": [
-      "#include <stdckdint.h>"
+      "#include <stdckdint.h>\n"
     ],
     "description": "Code snippet for #include <stdckdint.h> (C23)"
   },
   "include stddef.h": {
     "prefix": "#stddef",
     "body": [
-      "#include <stddef.h>"
+      "#include <stddef.h>\n"
     ],
     "description": "Code snippet for #include <stddef.h>"
   },
   "include stdint.h": {
     "prefix": "#stdint",
     "body": [
-      "#include <stdint.h>"
+      "#include <stdint.h>\n"
     ],
     "description": "Code snippet for #include <stdint.h> (C99)"
   },
   "include stdio.h": {
     "prefix": "#stdio",
     "body": [
-      "#include <stdio.h>"
+      "#include <stdio.h>\n"
     ],
     "description": "Code snippet for #include <stdio.h>"
   },
   "include stdlib.h": {
     "prefix": "#stdlib",
     "body": [
-      "#include <stdlib.h>"
+      "#include <stdlib.h>\n"
     ],
     "description": "Code snippet for #include <stdlib.h>"
   },
   "include stdnoreturn.h": {
     "prefix": "#stdnoreturn",
     "body": [
-      "#include <stdnoreturn.h>"
+      "#include <stdnoreturn.h>\n"
     ],
     "description": "Code snippet for #include <stdnoreturn.h> (C11)"
   },
   "include string.h": {
     "prefix": "#string",
     "body": [
-      "#include <string.h>"
+      "#include <string.h>\n"
     ],
     "description": "Code snippet for #include <string.h>"
   },
   "include tgmath.h": {
     "prefix": "#tgmath",
     "body": [
-      "#include <tgmath.h>"
+      "#include <tgmath.h>\n"
     ],
     "description": "Code snippet for #include <tgmath.h> (C99)"
   },
   "include threads.h": {
     "prefix": "#threads",
     "body": [
-      "#include <threads.h>"
+      "#include <threads.h>\n"
     ],
     "description": "Code snippet for #include <threads.h> (C11)"
   },
   "include time.h": {
     "prefix": "#time",
     "body": [
-      "#include <time.h>"
+      "#include <time.h>\n"
     ],
     "description": "Code snippet for #include <time.h>"
   },
   "include uchar.h": {
     "prefix": "#uchar",
     "body": [
-      "#include <uchar.h>"
+      "#include <uchar.h>\n"
     ],
     "description": "Code snippet for #include <uchar.h> (C11)"
   },
   "include wchar.h": {
     "prefix": "#wchar",
     "body": [
-      "#include <wchar.h>"
+      "#include <wchar.h>\n"
     ],
     "description": "Code snippet for #include <wchar.h> (C95)"
   },
   "include wctype.h": {
     "prefix": "#wctype",
     "body": [
-      "#include <wctype.h>"
+      "#include <wctype.h>\n"
     ],
     "description": "Code snippet for #include <wctype.h> (C95)"
   },

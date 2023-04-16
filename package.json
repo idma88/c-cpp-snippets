@@ -2,22 +2,22 @@
   "name": "c-cpp--snippets",
   "displayName": "C/C++ code snippets",
   "description": "C/C++ code snippets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "idma88",
-	"author": {
-		"name": "Dmitrii Ivanov"
-	},
-	"license": "MIT",
-	"homepage": "https://github.com/idma88/c-cpp-snippets/blob/master/README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/idma88/c-cpp-snippets"
-	},
-	"bugs": "https://github.com/idma88/c-cpp-snippets/issues",
-	"galleryBanner": {
-		"color": "#b146c2",
-		"theme": "dark"
-	},
+  "author": {
+    "name": "Dmitrii Ivanov"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/idma88/c-cpp-snippets/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idma88/c-cpp-snippets"
+  },
+  "bugs": "https://github.com/idma88/c-cpp-snippets/issues",
+  "galleryBanner": {
+    "color": "#b146c2",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -44,5 +44,13 @@
         "path": "./snippets/c_cpp_snippets.code-snippets"
       }
     ]
+  },
+  "scripts": {
+    "bundle": "vsce package",
+    "publish": "npm run bundle && vsce publish",
+    "clean": "node node_modules/rimraf/bin.js *.vsix"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
   }
 }

@@ -159,7 +159,7 @@ Prefix | Description
 `classi` | Code snippet for `class` with inlined constructor/destructor
 `classt` | Code snippet for `class template`
 `namesp` | Code snippet for `namespace`
-`try` | Code snippet for `try catch` block
+`try` | Code snippet for `try/catch` block
 
 ### С/C++ code snippets
 Prefix | Description
@@ -190,6 +190,12 @@ Prefix | Description
 ## Extension Settings
 
 This extension has no settings.
+
+### 1.0.2
+
+- Removed line break at the beginning of several snippets
+- Removed line break before `else` in `ifel` and `ifelif` snippets
+- Added line break at the end of `#include` snippets
 
 ### 1.0.1
 
