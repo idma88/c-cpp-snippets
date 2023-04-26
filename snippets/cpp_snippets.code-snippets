@@ -772,5 +772,55 @@
     "prefix": "try",
     "body": "try\n{\n\t${1:/* code */}\n}\ncatch(${2:const std::exception& e})\n{\n\t${0:std::cerr << e.what() << '\\n';}\n}\n",
     "description": "Code snippet for try catch block",
-  }
+  },
+  "Type alias": {
+    "prefix": ["us=", "type-aliaa"],
+    "body": "using ${1:identifier} = ${2:type-id};\n",
+    "description": "Code snippet for type alias",
+  },
+  "Alias template": {
+    "prefix": ["tus=", "templus"],
+    "body": "template <${1:template-parameter-list}>\nusing ${2:identifier} = ${3:type-id};\n",
+    "description": "Code snippet for alias template",
+  },
+  "Using-directive": {
+    "prefix": ["usns", "usnamesp"],
+    "body": "using namespace ${1:namespace-name};\n",
+    "description": "Code snippet for using-directives",
+  },
+  "const_cast": {
+    "prefix": "c_cast",
+    "body": "const_cast<${1:type}>(${TM_SELECTED_TEXT}$0)",
+    "description": "Code snippet for `const_cast`"
+  },
+  "dynamic_cast": {
+    "prefix": "d_cast",
+    "body": "dynamic_cast<${1:type}>(${TM_SELECTED_TEXT}$0)",
+    "description": "Code snippet for `dynamic_cast`"
+  },
+  "reinterpret_cast": {
+    "prefix": "r_cast",
+    "body": "reinterpret_cast<${1:type}>(${TM_SELECTED_TEXT}$0)",
+    "description": "Code snippet for `reinterpret_cast`"
+  },
+  "static_cast": {
+    "prefix": "s_cast",
+    "body": "static_cast<${1:type}>(${TM_SELECTED_TEXT}$0)",
+    "description": "Code snippet for `static_cast`"
+  },
+  "std::cout": {
+    "prefix": "scout",
+    "body": "std::cout << ",
+    "description": "Code snippet for `std::cout`"
+  },
+  "std::cin": {
+    "prefix": "scin",
+    "body": "std::cin >> ",
+    "description": "Code snippet for `std::cin`"
+  },
+  "std::endl": {
+    "prefix": "sendl",
+    "body": "std::endl",
+    "description": "Code snippet for `std::endl`"
+  },
 }

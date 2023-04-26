@@ -115,7 +115,7 @@
   "region/endregion": {
     "prefix": "reg",
     "body": [
-			"#pragma region \"${1:Description}\"\n${TM_SELECTED_TEXT}$0\n#pragma endregion"
+      "#pragma region \"${1:Description}\"\n${TM_SELECTED_TEXT}$0\n#pragma endregion"
     ],
     "description": "Code snippet for #pragma region/endregion"
   },

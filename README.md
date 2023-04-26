@@ -160,6 +160,16 @@ Prefix | Description
 `classt` | Code snippet for `class template`
 `namesp` | Code snippet for `namespace`
 `try` | Code snippet for `try/catch` block
+`us=`<br>`type-aliaa` | Code snippet for type alias
+`tus=`<br>`templus` | Code snippet for alias template
+`usns`<br>`usnamesp` | Code snippet for using-directives
+`c_cast` | Code snippet for `const_cast`
+`d_cast` | Code snippet for `dynamic_cast`
+`r_cast` | Code snippet for `reinterpret_cast`
+`s_cast` | Code snippet for `static_cast`
+`scout` | Code snippet for `std::cout`
+`scin` | Code snippet for `std::cin`
+`sendl` | Code snippet for `std::endl`
 
 ### С/C++ code snippets
 Prefix | Description
@@ -190,6 +200,19 @@ Prefix | Description
 ## Extension Settings
 
 This extension has no settings.
+
+### 1.0.3
+- Added new C++ snippets: 
+  * Type alias
+  * Alias template
+  * Using-directive
+  * const_cast
+  * dynamic_cast
+  * reinterpret_cast
+  * static_cast
+  * std::cout
+  * std::cin
+  * std::endl
 
 ### 1.0.2
 
