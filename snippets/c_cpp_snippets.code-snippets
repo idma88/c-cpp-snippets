@@ -36,7 +36,7 @@
   },
   "switch": {
     "prefix": "switch",
-    "body": "switch (${1:expression})\n{\n\tcase ${2:/* constant-expression */}:\n\t\t${3:/* code */}\n\t\tbreak;\n\n\tdefault:\n\t\tbreak;\n}",
+    "body": "switch (${1:expression})\n{\n\tcase ${2:/* constant-expression */}:\n\t\t${3:/* code */}\n\t\tbreak;\n\tdefault:\n\t\tbreak;\n}",
     "description": "Code snippet for switch",
   },
   "main": {
@@ -45,7 +45,7 @@
     "description": "Code snippet for main()",
   },
   "do": {
-    "prefix": "do_",
+    "prefix": "do",
     "body": "do\n{\n\t${0:/* code */}\n} while (${1:/* condition */});\n",
     "description": "Code snippet for do while loop",
   },
@@ -75,13 +75,13 @@
     "description": "Code snippet for while loop",
   },
   "ifd": {
-    "prefix": "ifnd",
-    "body": "#if defined($1)\n\n${0}\n\n#endif // $1\n",
+    "prefix": "ifd",
+    "body": "#if defined($1)\n${0}\n#endif // $1\n",
     "description": "Code snippet for if defined()",
   },
   "ifnd": {
     "prefix": "ifnd",
-    "body": "#if !defined($1)\n#define ${1:MACRO}\n\n${0}\n\n#endif // $1\n",
+    "body": "#if !defined($1)\n#define ${1:MACRO}\n${0}\n#endif // $1\n",
     "description": "Code snippet for if !defined()",
   },
   "#pragma_pack": {

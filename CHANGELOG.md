@@ -1,5 +1,29 @@
 # Change Log
 
+## Version 1.1.0
+- Transition to semantic versioning
+- Prefix changed:
+  * `do_` --> `do`
+  * `ifnd` --> `ifd` (Code snippet for if defined())
+- Fixed double line endings:
+  * `switch`
+  * `do`
+  * `ifd`
+  * `ifnd`
+- Removed extra line endings at the end of snippets:
+  * All snippet for `#include` for C and C++
+  * `class`
+  * `classi`
+  * `classt`
+  * `namesp`
+  * `try`
+  * `Type alias`
+  * `Using-directive`
+- Removed C++ snippets: 
+  * std::cout
+  * std::cin
+  * std::endl
+
 ## Version 1.0.3
 - Added new C++ snippets: 
   * Type alias

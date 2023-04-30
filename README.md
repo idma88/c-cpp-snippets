@@ -167,9 +167,6 @@ Prefix | Description
 `d_cast` | Code snippet for `dynamic_cast`
 `r_cast` | Code snippet for `reinterpret_cast`
 `s_cast` | Code snippet for `static_cast`
-`scout` | Code snippet for `std::cout`
-`scin` | Code snippet for `std::cin`
-`sendl` | Code snippet for `std::endl`
 
 ### С/C++ code snippets
 Prefix | Description
@@ -183,13 +180,13 @@ Prefix | Description
 `elif` | Code snippet for `else if ()`
 `switch` | Code snippet for `switch`
 `main` | Code snippet for `main()`
-`do_` | Code snippet for `do while` loop
+`do` | Code snippet for `do while` loop
 `for` | Code snippet for `for` loop
 `forr` | Code snippet for reverse `for` loop
 `foreach` | Code snippet for `foreach` loop
 `forrange` | Code snippet for `range-based` forloop
 `while` | Code snippet for `while` loop
-`ifnd` | Code snippet for `if defined()`
+`ifd` | Code snippet for `if defined()`
 `ifnd` | Code snippet for `if !defined()`
 `pack` | Packing alignment for structure, union, and class members
 `deprecated` | Mark code as **DEPRECATED**
@@ -200,6 +197,30 @@ Prefix | Description
 ## Extension Settings
 
 This extension has no settings.
+
+### 1.1.0
+- Transition to semantic versioning
+- Prefix changed:
+  * `do_` --> `do`
+  * `ifnd` --> `ifd` (Code snippet for if defined())
+- Fixed double line endings:
+  * `switch`
+  * `do`
+  * `ifd`
+  * `ifnd`
+- Removed extra line endings at the end of snippets:
+  * All snippet for `#include` for C and C++
+  * `class`
+  * `classi`
+  * `classt`
+  * `namesp`
+  * `try`
+  * `Type alias`
+  * `Using-directive`
+- Removed C++ snippets: 
+  * std::cout
+  * std::cin
+  * std::endl
 
 ### 1.0.3
 - Added new C++ snippets: 
