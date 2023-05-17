@@ -778,6 +778,11 @@
     "body": "using ${1:identifier} = ${2:type-id};",
     "description": "Code snippet for type alias",
   },
+  "Namespace alias": {
+    "prefix": ["ns=", "namespace-alias"],
+    "body": "namespace ${1:identifier} = ${2:ns_name};",
+    "description": "Code snippet for namespace alias",
+  },
   "Alias template": {
     "prefix": ["tus=", "templus"],
     "body": "template <${1:template-parameter-list}>\nusing ${2:identifier} = ${3:type-id};",

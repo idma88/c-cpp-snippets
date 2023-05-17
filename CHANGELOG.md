@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 1.2.0
+- Added new C++ snippet:
+  * Namespace alias
+
 ## Version 1.1.0
 - Transition to semantic versioning
 - Prefix changed:

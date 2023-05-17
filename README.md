@@ -161,6 +161,7 @@ Prefix | Description
 `namesp` | Code snippet for `namespace`
 `try` | Code snippet for `try/catch` block
 `us=`<br>`type-aliaa` | Code snippet for type alias
+`ns=`<br>`namespace-alias` | Code snippet for namespace alias
 `tus=`<br>`templus` | Code snippet for alias template
 `usns`<br>`usnamesp` | Code snippet for using-directives
 `c_cast` | Code snippet for `const_cast`
@@ -197,6 +198,10 @@ Prefix | Description
 ## Extension Settings
 
 This extension has no settings.
+
+### 1.2.0
+- Added new C++ snippet:
+  * Namespace alias
 
 ### 1.1.0
 - Transition to semantic versioning
