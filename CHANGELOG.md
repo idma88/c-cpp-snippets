@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 1.3.0
+- Added new С/C++ snippet:
+  * `#pragma once`
+  * include guard
+
 ## Version 1.2.0
 - Added new C++ snippet:
   * Namespace alias

@@ -160,10 +160,10 @@ Prefix | Description
 `classt` | Code snippet for `class template`
 `namesp` | Code snippet for `namespace`
 `try` | Code snippet for `try/catch` block
-`us=`<br>`type-aliaa` | Code snippet for type alias
-`ns=`<br>`namespace-alias` | Code snippet for namespace alias
-`tus=`<br>`templus` | Code snippet for alias template
-`usns`<br>`usnamesp` | Code snippet for using-directives
+`us=`<br>or<br>`type-aliaa` | Code snippet for type alias
+`ns=`<br>or<br>`namespace-alias` | Code snippet for namespace alias
+`tus=`<br>or<br>`templus` | Code snippet for alias template
+`usns`<br>or<br>`usnamesp` | Code snippet for using-directives
 `c_cast` | Code snippet for `const_cast`
 `d_cast` | Code snippet for `dynamic_cast`
 `r_cast` | Code snippet for `reinterpret_cast`
@@ -194,10 +194,17 @@ Prefix | Description
 `deprecated-else` | Mark code as **DEPRECATED** with #else block
 `clang-off` | Disable code formatting (**clang-format**)
 `reg` | Code snippet for `#pragma region/endregion`
+`#once` | Code snippet for `#pragma once`
+`#ig`<br>or<br>`#guard` | Code snippet for include guard
 
 ## Extension Settings
 
 This extension has no settings.
+
+### 1.3.0
+- Added new С/C++ snippet:
+  * `#pragma once`
+  * include guard
 
 ### 1.2.0
 - Added new C++ snippet:

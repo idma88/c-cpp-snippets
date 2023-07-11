@@ -119,4 +119,21 @@
     ],
     "description": "Code snippet for #pragma region/endregion"
   },
+  "#pragma_once": {
+    "prefix": "#once",
+    "body": [
+      "#pragma once"
+    ],
+    "description": "Code snippet for #pragma once"
+  },
+  "include guard": {
+    "prefix": ["#ig", "#guard"],
+    "body": [
+      "#ifndef ${TM_FILEPATH/(^|[-;:!.'\\(\\)\\[\\]\\{\\}@\\/\\\\&#%`^+=~$]+)([^-;:!.'\\(\\)\\[\\]\\{\\}@\\/\\\\&#%`^+=~$]+)/${1:+_}${2:/upcase}/g}",
+      "#define ${TM_FILEPATH/(^|[-;:!.'\\(\\)\\[\\]\\{\\}@\\/\\\\&#%`^+=~$]+)([^-;:!.'\\(\\)\\[\\]\\{\\}@\\/\\\\&#%`^+=~$]+)/${1:+_}${2:/upcase}/g}",
+      "$0${TM_SELECTED_TEXT}",
+      "#endif // ${TM_FILEPATH/(^|[-;:!.'\\(\\)\\[\\]\\{\\}@\\/\\\\&#%`^+=~$]+)([^-;:!.'\\(\\)\\[\\]\\{\\}@\\/\\\\&#%`^+=~$]+)/${1:+_}${2:/upcase}/g}"
+    ],
+    "description": "Code snippet for include guard"
+  },
 }
