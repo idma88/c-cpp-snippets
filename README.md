@@ -201,6 +201,9 @@ Prefix | Description
 
 This extension has no settings.
 
+### 1.3.1
+- Update icon
+
 ### 1.3.0
 - Added new С/C++ snippet:
   * `#pragma once`
