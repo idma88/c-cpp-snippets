@@ -557,7 +557,7 @@
     "body": [
       "#include <codecvt>"
     ],
-    "description": "Code snippet for #include <codecvt> (C++11, deprecated in C++17)"
+    "description": "Code snippet for #include <codecvt> (C++11, deprecated in C++17, removed in C++26)"
   },
   "include locale": {
     "prefix": "#locale",
@@ -655,7 +655,7 @@
     "body": [
       "#include <strstream>"
     ],
-    "description": "Code snippet for #include <strstream> (deprecated in C++98)"
+    "description": "Code snippet for #include <strstream> (deprecated in C++98, removed in C++26)"
   },
   "include syncstream": {
     "prefix": "#syncstream",
@@ -747,6 +747,48 @@
       "#include <thread>"
     ],
     "description": "Code snippet for #include <thread> (C++11)"
+  },
+  "include debugging": {
+    "prefix": "#debugging",
+    "body": [
+      "#include <debugging>"
+    ],
+    "description": "Code snippet for #include <debugging> (C++26)"
+  },
+  "include hazard_pointer": {
+    "prefix": "#hazard_pointer",
+    "body": [
+      "#include <hazard_pointer>"
+    ],
+    "description": "Code snippet for #include <hazard_pointer> (C++26)"
+  },
+  "include inplace_vector": {
+    "prefix": "#inplace_vector",
+    "body": [
+      "#include <inplace_vector>"
+    ],
+    "description": "Code snippet for #include <inplace_vector> (C++26)"
+  },
+  "include linalg": {
+    "prefix": "#linalg",
+    "body": [
+      "#include <linalg>"
+    ],
+    "description": "Code snippet for #include <linalg> (C++26)"
+  },
+  "include rcu": {
+    "prefix": "#rcu",
+    "body": [
+      "#include <rcu>"
+    ],
+    "description": "Code snippet for #include <rcu> (C++26)"
+  },
+  "include text_encoding": {
+    "prefix": "#text_encoding",
+    "body": [
+      "#include <text_encoding>"
+    ],
+    "description": "Code snippet for #include <text_encoding> (C++26)"
   },
   "class": {
     "prefix": "class",

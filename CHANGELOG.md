@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 1.4.0
+* Added new C++ snippet: `#include` snippets for C++26
+* Update С/C++ snippet: `region/endregion`
+
 ## Version 1.3.1
 - Update icon
 

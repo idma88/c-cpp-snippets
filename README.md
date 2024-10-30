@@ -66,7 +66,7 @@ Prefix | Description
 `#climits` | Code snippet for `#include <climits>`
 `#clocale` | Code snippet for `#include <clocale>`
 `#cmath` | Code snippet for `#include <cmath>`
-`#codecvt` | Code snippet for `#include <codecvt>` (C++11, deprecated in C++17)
+`#codecvt` | Code snippet for `#include <codecvt>` (C++11, deprecated in C++17, removed in C++26)
 `#compare` | Code snippet for `#include <compare>` (C++20)
 `#complex` | Code snippet for `#include <complex>`
 `#concepts` | Code snippet for `#include <concepts>` (C++20)
@@ -84,6 +84,7 @@ Prefix | Description
 `#cuchar` | Code snippet for `#include <cuchar>` (C++11)
 `#cwchar` | Code snippet for `#include <cwchar>`
 `#cwctype` | Code snippet for `#include <cwctype>`
+`#debugging` | Code snippet for `#include <debugging>` (C++26)
 `#deque` | Code snippet for `#include <deque>`
 `#exception` | Code snippet for `#include <exception>`
 `#execution` | Code snippet for `#include <execution>` (C++17)
@@ -97,7 +98,9 @@ Prefix | Description
 `#functional` | Code snippet for `#include <functional>`
 `#future` | Code snippet for `#include <future>` (C++11)
 `#generator` | Code snippet for `#include <generator>` (C++23)
+`#hazard_pointer` | Code snippet for `#include <hazard_pointer>` (C++26)
 `#initializer_list` | Code snippet for `#include <initializer_list>` (C++11)
+`#inplace_vector` | Code snippet for `#include <inplace_vector>` (C++26)
 `#iomanip` | Code snippet for `#include <iomanip>`
 `#ios` | Code snippet for `#include <ios>`
 `#iosfwd` | Code snippet for `#include <iosfwd>`
@@ -106,6 +109,7 @@ Prefix | Description
 `#iterator` | Code snippet for `#include <iterator>`
 `#latch` | Code snippet for `#include <latch>` (C++20)
 `#limits` | Code snippet for `#include <limits>`
+`#linalg` | Code snippet for `#include <linalg>` (C++26)
 `#list` | Code snippet for `#include <list>`
 `#locale` | Code snippet for `#include <locale>`
 `#map` | Code snippet for `#include <map>`
@@ -123,6 +127,7 @@ Prefix | Description
 `#random` | Code snippet for `#include <random>` (C++11)
 `#ranges` | Code snippet for `#include <ranges>` (C++20)
 `#ratio` | Code snippet for `#include <ratio>` (C++11)
+`#rcu` | Code snippet for `#include <rcu>` (C++26)
 `#regex` | Code snippet for `#include <regex>` (C++11)
 `#scoped_allocator` | Code snippet for `#include <scoped_allocator>` (C++11)
 `#semaphore` | Code snippet for `#include <semaphore>` (C++20)
@@ -140,9 +145,10 @@ Prefix | Description
 `#streambuf` | Code snippet for `#include <streambuf>`
 `#string_view` | Code snippet for `#include <string_view>` (C++17)
 `#string` | Code snippet for `#include <string>`
-`#strstream` | Code snippet for `#include <strstream>` (deprecated in C++98)
+`#strstream` | Code snippet for `#include <strstream>` (deprecated in C++98, removed in C++26)
 `#syncstream` | Code snippet for `#include <syncstream>` (C++20)
 `#system_error` | Code snippet for `#include <system_error>` (C++11)
+`#text_encoding` | Code snippet for `#include <text_encoding>` (C++26)
 `#thread` | Code snippet for `#include <thread>` (C++11)
 `#tuple` | Code snippet for `#include <tuple>` (C++11)
 `#type_traits` | Code snippet for `#include <type_traits>` (C++11)
@@ -200,6 +206,10 @@ Prefix | Description
 ## Extension Settings
 
 This extension has no settings.
+
+### 1.4.0
+- Added new C++ snippet: `#include` snippets for C++26
+- Update С/C++ snippet: `region/endregion`
 
 ### 1.3.1
 - Update icon
